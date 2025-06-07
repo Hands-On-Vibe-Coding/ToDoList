@@ -1,0 +1,30 @@
+<svg viewBox="0 0 375 812" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPhone 프레임 -->
+  <rect width="375" height="812" fill="#f3f4f6" stroke="#e5e7eb" />
+  
+  <!-- 헤더 영역 -->
+  <rect x="0" y="0" width="375" height="88" fill="#ffffff" />
+  <text x="187.5" y="56" text-anchor="middle" font-size="20" font-weight="600">ToDo 앱</text>
+  
+  <!-- 로그인 폼 영역 -->
+  <g transform="translate(20, 200)">
+    <!-- 로고/아이콘 -->
+    <rect x="137.5" y="0" width="60" height="60" rx="12" fill="#3b82f6" />
+    <text x="167.5" y="40" text-anchor="middle" font-size="24" fill="white" font-weight="bold">✓</text>
+    
+    <!-- 이메일 입력 -->
+    <rect x="0" y="100" width="335" height="48" rx="8" fill="#ffffff" stroke="#e5e7eb" />
+    <text x="16" y="128" font-size="14" fill="#6b7280">이메일</text>
+    
+    <!-- 비밀번호 입력 -->
+    <rect x="0" y="160" width="335" height="48" rx="8" fill="#ffffff" stroke="#e5e7eb" />
+    <text x="16" y="188" font-size="14" fill="#6b7280">비밀번호</text>
+    
+    <!-- 로그인 버튼 -->
+    <rect x="0" y="230" width="335" height="48" rx="8" fill="#3b82f6" />
+    <text x="167.5" y="258" text-anchor="middle" font-size="16" fill="white" font-weight="500">로그인</text>
+    
+    <!-- 회원가입 링크 -->
+    <text x="167.5" y="310" text-anchor="middle" font-size="14" fill="#3b82f6">아직 계정이 없으신가요? 회원가입</text>
+  </g>
+</svg>

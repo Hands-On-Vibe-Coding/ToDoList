@@ -1,0 +1,84 @@
+<svg viewBox="0 0 375 812" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPhone 프레임 -->
+  <rect width="375" height="812" fill="#f3f4f6" stroke="#e5e7eb" />
+  
+  <!-- 헤더 영역 -->
+  <rect x="0" y="0" width="375" height="88" fill="#ffffff" />
+  <text x="20" y="56" font-size="24" font-weight="600">통계</text>
+  
+  <!-- 기간 선택 -->
+  <g transform="translate(20, 100)">
+    <rect x="0" y="0" width="335" height="40" rx="20" fill="#ffffff" stroke="#e5e7eb" />
+    <text x="20" y="26" font-size="14">이번 주</text>
+    <text x="315" y="26" text-anchor="end" font-size="14">▼</text>
+  </g>
+  
+  <!-- 요약 카드 -->
+  <g transform="translate(20, 160)">
+    <!-- 전체 할 일 -->
+    <rect x="0" y="0" width="160" height="100" rx="12" fill="#ffffff" />
+    <text x="80" y="30" text-anchor="middle" font-size="14" fill="#6b7280">전체 할 일</text>
+    <text x="80" y="60" text-anchor="middle" font-size="32" font-weight="600">24</text>
+    <text x="80" y="85" text-anchor="middle" font-size="12" fill="#10b981">+12% ↑</text>
+    
+    <!-- 완료된 할 일 -->
+    <rect x="175" y="0" width="160" height="100" rx="12" fill="#ffffff" />
+    <text x="255" y="30" text-anchor="middle" font-size="14" fill="#6b7280">완료됨</text>
+    <text x="255" y="60" text-anchor="middle" font-size="32" font-weight="600">18</text>
+    <text x="255" y="85" text-anchor="middle" font-size="12" fill="#10b981">75%</text>
+  </g>
+  
+  <!-- 차트 영역 -->
+  <rect x="20" y="280" width="335" height="200" rx="12" fill="#ffffff" />
+  <text x="187.5" y="310" text-anchor="middle" font-size="16" font-weight="500">주간 완료율</text>
+  
+  <!-- 간단한 막대 차트 -->
+  <g transform="translate(40, 340)">
+    <rect x="0" y="60" width="40" height="60" fill="#3b82f6" />
+    <text x="20" y="140" text-anchor="middle" font-size="12" fill="#6b7280">월</text>
+    
+    <rect x="50" y="40" width="40" height="80" fill="#3b82f6" />
+    <text x="70" y="140" text-anchor="middle" font-size="12" fill="#6b7280">화</text>
+    
+    <rect x="100" y="30" width="40" height="90" fill="#3b82f6" />
+    <text x="120" y="140" text-anchor="middle" font-size="12" fill="#6b7280">수</text>
+    
+    <rect x="150" y="50" width="40" height="70" fill="#3b82f6" />
+    <text x="170" y="140" text-anchor="middle" font-size="12" fill="#6b7280">목</text>
+    
+    <rect x="200" y="20" width="40" height="100" fill="#10b981" />
+    <text x="220" y="140" text-anchor="middle" font-size="12" fill="#6b7280">금</text>
+    
+    <rect x="250" y="70" width="40" height="50" fill="#e5e7eb" />
+    <text x="270" y="140" text-anchor="middle" font-size="12" fill="#6b7280">토</text>
+  </g>
+  
+  <!-- 우선순위별 분포 -->
+  <rect x="20" y="500" width="335" height="140" rx="12" fill="#ffffff" />
+  <text x="187.5" y="530" text-anchor="middle" font-size="16" font-weight="500">우선순위별 분포</text>
+  
+  <g transform="translate(40, 550)">
+    <rect x="0" y="10" width="200" height="20" rx="10" fill="#ef4444" />
+    <text x="210" y="25" font-size="14">높음: 8 (33%)</text>
+    
+    <rect x="0" y="40" width="150" height="20" rx="10" fill="#f59e0b" />
+    <text x="210" y="55" font-size="14">중간: 10 (42%)</text>
+    
+    <rect x="0" y="70" width="100" height="20" rx="10" fill="#10b981" />
+    <text x="210" y="85" font-size="14">낮음: 6 (25%)</text>
+  </g>
+  
+  <!-- 하단 네비게이션 -->
+  <rect x="0" y="724" width="375" height="88" fill="#ffffff" />
+  <g transform="translate(0, 740)">
+    <rect x="47" y="0" width="56" height="56" rx="8" fill="#f3f4f6" />
+    <text x="75" y="35" text-anchor="middle" font-size="24">📋</text>
+    
+    <rect x="159" y="0" width="56" height="56" rx="8" fill="#e6f2ff" />
+    <rect x="159" y="52" width="56" height="4" rx="2" fill="#3b82f6" />
+    <text x="187" y="35" text-anchor="middle" font-size="24">📊</text>
+    
+    <rect x="271" y="0" width="56" height="56" rx="8" fill="#f3f4f6" />
+    <text x="299" y="35" text-anchor="middle" font-size="24">⚙️</text>
+  </g>
+</svg>

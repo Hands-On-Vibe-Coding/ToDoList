@@ -1,0 +1,44 @@
+<svg viewBox="0 0 375 812" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 (어둡게) -->
+  <rect width="375" height="812" fill="#000000" opacity="0.5" />
+  
+  <!-- 모달 -->
+  <rect x="0" y="200" width="375" height="450" rx="20" fill="#ffffff" />
+  
+  <!-- 모달 헤더 -->
+  <text x="20" y="240" font-size="20" font-weight="600">새 할 일 추가</text>
+  <text x="335" y="240" text-anchor="end" font-size="16" fill="#6b7280">✕</text>
+  
+  <!-- 입력 필드들 -->
+  <g transform="translate(20, 270)">
+    <!-- 제목 입력 -->
+    <text x="0" y="0" font-size="14" font-weight="500">제목</text>
+    <rect x="0" y="10" width="335" height="48" rx="8" fill="#f9fafb" stroke="#e5e7eb" />
+    
+    <!-- 설명 입력 -->
+    <text x="0" y="80" font-size="14" font-weight="500">설명 (선택사항)</text>
+    <rect x="0" y="90" width="335" height="80" rx="8" fill="#f9fafb" stroke="#e5e7eb" />
+    
+    <!-- 우선순위 선택 -->
+    <text x="0" y="190" font-size="14" font-weight="500">우선순위</text>
+    <g transform="translate(0, 200)">
+      <rect x="0" y="0" width="100" height="40" rx="8" fill="#fee2e2" stroke="#ef4444" />
+      <text x="50" y="26" text-anchor="middle" font-size="14">높음</text>
+      
+      <rect x="110" y="0" width="100" height="40" rx="8" fill="#f9fafb" stroke="#e5e7eb" />
+      <text x="160" y="26" text-anchor="middle" font-size="14" fill="#6b7280">중간</text>
+      
+      <rect x="220" y="0" width="100" height="40" rx="8" fill="#f9fafb" stroke="#e5e7eb" />
+      <text x="270" y="26" text-anchor="middle" font-size="14" fill="#6b7280">낮음</text>
+    </g>
+  </g>
+  
+  <!-- 버튼 영역 -->
+  <g transform="translate(20, 550)">
+    <rect x="0" y="0" width="160" height="48" rx="8" fill="#ffffff" stroke="#e5e7eb" />
+    <text x="80" y="30" text-anchor="middle" font-size="16" fill="#6b7280">취소</text>
+    
+    <rect x="175" y="0" width="160" height="48" rx="8" fill="#3b82f6" />
+    <text x="255" y="30" text-anchor="middle" font-size="16" fill="white" font-weight="500">저장</text>
+  </g>
+</svg>
