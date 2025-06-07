@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    transpilePackages: ['@todolist/shared'],
+  transpilePackages: ['@todolist/shared'],
+  eslint: {
+    dirs: ['src'],
   },
 };
 
